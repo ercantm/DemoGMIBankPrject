@@ -12,6 +12,9 @@ import org.junit.runner.RunWith;
         glue = "gmibank/stepdefinitions",
         tags = "@db",
         dryRun = false
+
+      // config 2   
+
 )
 public class Runner {
 
