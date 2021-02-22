@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.201">
+    <testcase classname="DataBase Test" name="TC02_kullanici database baglantini kontrol eder" time="0.055">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given kullanici veritabanina baglanir.......................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at gmibank.utilities.DatabaseUtility.executeQuery(DatabaseUtility.java:172)
+	at gmibank.utilities.DatabaseUtility.getColumnData(DatabaseUtility.java:109)
+	at gmibank.stepdefinitions.DBStepDefinitions.kullanici_veritabanina_baglanir(DBStepDefinitions.java:17)
+	at ✽.kullanici veritabanina baglanir(file:///C:/Users/ercan/GMI_BANK/src/test/resources/features/db.feature:4)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

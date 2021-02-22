@@ -1,0 +1,51 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-21T22:33:48.240Z",
+        "line": 3,
+        "name": "TC02_kullanici database baglantini kontrol eder",
+        "description": "",
+        "id": "database-test;tc02-kullanici-database-baglantini-kontrol-eder",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank.utilities.DatabaseUtility.executeQuery(DatabaseUtility.java:172)\r\n\tat gmibank.utilities.DatabaseUtility.getColumnData(DatabaseUtility.java:109)\r\n\tat gmibank.stepdefinitions.DBStepDefinitions.kullanici_veritabanina_baglanir(DBStepDefinitions.java:17)\r\n\tat ✽.kullanici veritabanina baglanir(file:///C:/Users/ercan/GMI_BANK/src/test/resources/features/db.feature:4)\r\n",
+              "duration": 15957800,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "kullanici veritabanina baglanir",
+            "match": {
+              "location": "gmibank.stepdefinitions.DBStepDefinitions.kullanici_veritabanina_baglanir()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@db"
+          }
+        ]
+      }
+    ],
+    "name": "DataBase Test",
+    "description": "",
+    "id": "database-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/db.feature",
+    "tags": [
+      {
+        "name": "@db",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
